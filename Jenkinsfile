@@ -10,7 +10,7 @@ pipeline {
 			// start of running steps inside one stage
 			steps {
 				// invoke command to build with maven
-				batch 'mvn clean install'
+				bat 'clean install'
 				}
 			}
 		}
